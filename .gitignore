@@ -1,0 +1,13 @@
+*.obj
+*.htm
+*.manifest
+*.res
+*.pch
+*.dep
+*.idb
+*.pdb
+*.vcproj
+*.user
+*.h
+ReadMe.txt
+stdafx.cpp
