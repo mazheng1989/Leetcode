@@ -1,0 +1,54 @@
+﻿Build started 3/9/2014 10:40:04 PM.
+     1>Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Leetcode.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Leetcode.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Leetcode.cpp 3sum.cpp reverseInteger.cpp sameTree.cpp singleNumber.cpp wordLadder2Solution.cpp wordLader2.cpp wordLader2Use.cpp
+         Leetcode.cpp
+         3sum.cpp
+         reverseInteger.cpp
+         sameTree.cpp
+         singleNumber.cpp
+         wordLadder2Solution.cpp
+     1>wordLadder2Solution.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLadder2Solution.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLadder2Solution.cpp(15): warning C4101: 'i' : unreferenced local variable
+     1>wordLadder2Solution.cpp(15): warning C4101: 'j' : unreferenced local variable
+     1>wordLadder2Solution.cpp(48): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLadder2Solution.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLadder2Solution.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+         wordLader2.cpp
+     1>wordLader2.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>wordLader2.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+         wordLader2Use.cpp
+     1>wordLader2Use.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib maxDepthBinaryTree.cpp
+         maxDepthBinaryTree.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\git_leetcode\Leetcode\Leetcode\Release\Leetcode.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\git_leetcode\Leetcode\Leetcode\Release\Leetcode.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\git_leetcode\Leetcode\Leetcode\Release\Leetcode.lib" /MACHINE:X86 /SAFESEH Release\Leetcode.obj
+         Release\stdafx.obj
+         Release\3sum.obj
+         Release\maxDepthBinaryTree.obj
+         Release\reverseInteger.obj
+         Release\sameTree.obj
+         Release\singleNumber.obj
+         Release\wordLadder2Solution.obj
+         Release\wordLader2.obj
+         Release\wordLader2Use.obj
+     1>LINK : fatal error LNK1104: cannot open file 'D:\code\git_leetcode\Leetcode\Leetcode\Release\Leetcode.exe'
+     1>Done Building Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.95
