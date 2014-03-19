@@ -111,17 +111,22 @@
   <ItemGroup>
     <ClCompile Include="ClimbStairs.cpp" />
     <ClCompile Include="DeduplicateSortedList.cpp" />
+    <ClCompile Include="DetectCircle.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="Leetcode.cpp" />
+    <ClCompile Include="LevelOrderBottom.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="MaxPointInLine.cpp" />
+    <ClCompile Include="MaxProfit.cpp" />
     <ClCompile Include="MaxSubarray.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoList.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
     <ClCompile Include="PascalsTri.cpp" />
+    <ClCompile Include="permute.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
