@@ -51,6 +51,69 @@
     <ClCompile Include="SellStock2.cpp">
       <Filter>Source Files\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="UniqueBST.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxPointInLine.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="PreorderTraversal.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInsert.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="InorderTraversal.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="NextRightPointers.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="DeduplicateSortedList.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbStairs.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSubarray.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="Roman2Int.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="singleNumber2.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="sortedArray2BST.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="isSymmetric.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoList.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicates.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalsTri.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSortedArray.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="isBalanced.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapPairs.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

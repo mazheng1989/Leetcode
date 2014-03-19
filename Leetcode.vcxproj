@@ -109,8 +109,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ClimbStairs.cpp" />
+    <ClCompile Include="DeduplicateSortedList.cpp" />
+    <ClCompile Include="InorderTraversal.cpp" />
+    <ClCompile Include="isBalanced.cpp" />
+    <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="Leetcode.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="MaxPointInLine.cpp" />
+    <ClCompile Include="MaxSubarray.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
+    <ClCompile Include="MergeTwoList.cpp" />
+    <ClCompile Include="NextRightPointers.cpp" />
+    <ClCompile Include="PascalsTri.cpp" />
+    <ClCompile Include="PreorderTraversal.cpp" />
+    <ClCompile Include="RemoveDuplicates.cpp" />
+    <ClCompile Include="RemoveElement.cpp" />
+    <ClCompile Include="Roman2Int.cpp" />
+    <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SellStock2.cpp" />
+    <ClCompile Include="singleNumber2.cpp" />
+    <ClCompile Include="sortedArray2BST.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -135,6 +154,8 @@
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="sameTree.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="SwapPairs.cpp" />
+    <ClCompile Include="UniqueBST.cpp" />
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />
