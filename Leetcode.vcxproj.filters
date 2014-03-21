@@ -129,6 +129,33 @@
     <ClCompile Include="GrayCode.cpp">
       <Filter>Source Files\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="removeNthFromEnd.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SortColor.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotate.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePath.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePath2use.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MinPathSum.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MinPathSum2Use.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateParenthesis.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxArea.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

@@ -47,9 +47,34 @@ void testWordLader2()
 	}
 	cin.get(ch);
 }
+void testUniquePath()
+{
+	Solution solution;
+	solution.uniquePaths(10,10);
+}
+void testMinPathSum()
+{
+	vector<vector<int>> grid;
+	vector<int> row1;
+	row1.push_back(1);
+	row1.push_back(2);
+	row1.push_back(5);
+	vector<int> row2;
+	row2.push_back(3);
+	row2.push_back(2);
+	row2.push_back(1);
+	grid.push_back(row1);
+	grid.push_back(row2);
+	int x = grid.size();
+	int y = grid[0].size();
+	Solution solution;
+	int i = solution.minPathSum(grid);
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
-	testWordLader2();
+	//testWordLader2();
+	//testUniquePath();
+	testMinPathSum();
 	char ch;
 	cin.get(ch);
 	return 0;

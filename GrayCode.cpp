@@ -20,7 +20,7 @@ public:
             return output;
         }
         output = grayCode(n-1);
-		int range = pow(2.0f,(float)(n-1));
+		int range = (int)pow(2.0f,(float)(n-1));
         for(int i=0;i<range;++i)
 		{
 			output.push_back(range+output[range-1-i]);

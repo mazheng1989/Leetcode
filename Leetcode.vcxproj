@@ -112,6 +112,7 @@
     <ClCompile Include="ClimbStairs.cpp" />
     <ClCompile Include="DeduplicateSortedList.cpp" />
     <ClCompile Include="DetectCircle.cpp" />
+    <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="isBalanced.cpp" />
@@ -119,21 +120,27 @@
     <ClCompile Include="Leetcode.cpp" />
     <ClCompile Include="LevelOrderBottom.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MaxPointInLine.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
     <ClCompile Include="MaxSubarray.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoList.cpp" />
+    <ClCompile Include="MinPathSum.cpp" />
+    <ClCompile Include="MinPathSum2Use.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
     <ClCompile Include="PascalsTri.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
+    <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="Roman2Int.cpp" />
+    <ClCompile Include="Rotate.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SellStock2.cpp" />
     <ClCompile Include="singleNumber2.cpp" />
+    <ClCompile Include="SortColor.cpp" />
     <ClCompile Include="sortedArray2BST.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -161,6 +168,8 @@
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="SwapPairs.cpp" />
     <ClCompile Include="UniqueBST.cpp" />
+    <ClCompile Include="UniquePath.cpp" />
+    <ClCompile Include="UniquePath2use.cpp" />
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />
