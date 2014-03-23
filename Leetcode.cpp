@@ -1,4 +1,4 @@
-// Leetcode.cpp : Defines the entry point for the console application.
+﻿// Leetcode.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -70,11 +70,36 @@ void testMinPathSum()
 	Solution solution;
 	int i = solution.minPathSum(grid);
 }
+
+void A::foo(){
+	cout<<"A"<<endl;
+}
+
+void B::foo(){
+	cout<<"B"<<endl;
+}
+
+void bar()
+{
+    A *a = new B();
+	a->foo();   // A::foo()被调用
+	delete a;
+}
+
+void testCanJump()
+{
+	int input[3] = {1,2,3};
+	int n = 3;
+	Solution solution;
+	bool output = solution.canJump(input,n);
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
 	//testUniquePath();
-	testMinPathSum();
+	//testMinPathSum();
+	//testCanJump();
+	bar();
 	char ch;
 	cin.get(ch);
 	return 0;

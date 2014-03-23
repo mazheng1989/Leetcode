@@ -156,6 +156,51 @@
     <ClCompile Include="MaxArea.cpp">
       <Filter>Source Files\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="HasPathSum.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchMatrix.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelOrder.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="PostOrderTraversalcpp.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="isPalindrome.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="Combine.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SumNumbers.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MinDepth.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="Search.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="CanJump.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMatrixZeros.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="TrappingRainWater.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthofLastWord.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="IsValid.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

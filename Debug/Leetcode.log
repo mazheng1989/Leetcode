@@ -1,18 +1,26 @@
-﻿Build started 3/21/2014 11:37:48 AM.
+﻿Build started 3/23/2014 7:22:25 PM.
      1>Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MaxArea.cpp
-         MaxArea.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt IsValid.cpp
+         IsValid.cpp
+     1>IsValid.cpp(14): warning C4018: '<' : signed/unsigned mismatch
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 /SAFESEH Debug\ClimbStairs.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 /SAFESEH Debug\CanJump.obj
+         Debug\ClimbStairs.obj
+         Debug\Combine.obj
          Debug\DeduplicateSortedList.obj
          Debug\DetectCircle.obj
          Debug\GenerateParenthesis.obj
          Debug\GrayCode.obj
+         Debug\HasPathSum.obj
          Debug\InorderTraversal.obj
          Debug\isBalanced.obj
+         Debug\isPalindrome.obj
          Debug\isSymmetric.obj
+         Debug\IsValid.obj
          Debug\Leetcode.obj
+         Debug\LengthofLastWord.obj
+         Debug\LevelOrder.obj
          Debug\LevelOrderBottom.obj
          Debug\LinkedList.obj
          Debug\MaxArea.obj
@@ -21,19 +29,25 @@
          Debug\MaxSubarray.obj
          Debug\MergeSortedArray.obj
          Debug\MergeTwoList.obj
+         Debug\MinDepth.obj
          Debug\MinPathSum.obj
          Debug\MinPathSum2Use.obj
          Debug\NextRightPointers.obj
          Debug\PascalsTri.obj
          Debug\permute.obj
+         Debug\PlusOne.obj
+         Debug\PostOrderTraversalcpp.obj
          Debug\PreorderTraversal.obj
          Debug\RemoveDuplicates.obj
          Debug\RemoveElement.obj
          Debug\removeNthFromEnd.obj
          Debug\Roman2Int.obj
          Debug\Rotate.obj
+         Debug\Search.obj
          Debug\SearchInsert.obj
+         Debug\SearchMatrix.obj
          Debug\SellStock2.obj
+         Debug\SetMatrixZeros.obj
          Debug\singleNumber2.obj
          Debug\SortColor.obj
          Debug\sortedArray2BST.obj
@@ -43,7 +57,10 @@
          Debug\reverseInteger.obj
          Debug\sameTree.obj
          Debug\singleNumber.obj
+         Debug\SumNumbers.obj
          Debug\SwapPairs.obj
+         Debug\Test.obj
+         Debug\TrappingRainWater.obj
          Debug\UniqueBST.obj
          Debug\UniquePath.obj
          Debug\UniquePath2use.obj
@@ -55,4 +72,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.23
+Time Elapsed 00:00:02.05
