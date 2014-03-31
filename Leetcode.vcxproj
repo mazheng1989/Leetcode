@@ -109,24 +109,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AddBinary.cpp" />
+    <ClCompile Include="BuildTree.cpp" />
+    <ClCompile Include="BuildTreePreIn.cpp" />
     <ClCompile Include="CanJump.cpp" />
     <ClCompile Include="ClimbStairs.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="Combine.cpp" />
+    <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="DeduplicateSortedList.cpp" />
+    <ClCompile Include="DeleteDuplicatesII.cpp" />
     <ClCompile Include="DetectCircle.cpp" />
+    <ClCompile Include="DuildTree.cpp" />
+    <ClCompile Include="Flatten.cpp" />
+    <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
+    <ClCompile Include="GenerateTrees.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HasPathSum.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
+    <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="IsValid.cpp" />
+    <ClCompile Include="IsValidBST.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="Leetcode.cpp" />
     <ClCompile Include="LengthofLastWord.cpp" />
+    <ClCompile Include="LetterCombination.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
     <ClCompile Include="LevelOrderBottom.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestConsecutive.cpp" />
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MaxPointInLine.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
@@ -134,27 +150,39 @@
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoList.cpp" />
     <ClCompile Include="MinDepth.cpp" />
+    <ClCompile Include="MiniTotal.cpp" />
     <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="MinPathSum2Use.cpp" />
+    <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
+    <ClCompile Include="PalindromePartiion.cpp" />
+    <ClCompile Include="Partition.cpp" />
     <ClCompile Include="PascalsTri.cpp" />
+    <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="permute.cpp" />
+    <ClCompile Include="permuteII.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="PostOrderTraversalcpp.cpp" />
+    <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
+    <ClCompile Include="RemoveDuplicate.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="ReverseBetween.cpp" />
     <ClCompile Include="Roman2Int.cpp" />
     <ClCompile Include="Rotate.cpp" />
     <ClCompile Include="Search.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchMatrix.cpp" />
+    <ClCompile Include="SearchRange.cpp" />
     <ClCompile Include="SellStock2.cpp" />
     <ClCompile Include="SetMatrixZeros.cpp" />
     <ClCompile Include="singleNumber2.cpp" />
     <ClCompile Include="SortColor.cpp" />
     <ClCompile Include="sortedArray2BST.cpp" />
+    <ClCompile Include="SortedListToBST.cpp" />
+    <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -179,8 +207,10 @@
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="sameTree.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SumNumbers.cpp" />
     <ClCompile Include="SwapPairs.cpp" />
+    <ClCompile Include="ThreeSumCloset.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="UniqueBST.cpp" />
     <ClCompile Include="UniquePath.cpp" />
@@ -188,6 +218,7 @@
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />
+    <ClCompile Include="ZigZagLevelOrder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />

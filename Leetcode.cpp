@@ -47,6 +47,11 @@ void testWordLader2()
 	}
 	cin.get(ch);
 }
+void testCountAndSay()
+{
+	Solution solution;
+	string testStr = solution.countAndSay(9);
+}
 void testUniquePath()
 {
 	Solution solution;
@@ -93,13 +98,26 @@ void testCanJump()
 	Solution solution;
 	bool output = solution.canJump(input,n);
 }
+void testCombinPhoneNum()
+{
+	Solution solution;
+	vector<string> output = solution.letterCombinations("23");
+}
+void testPalindrome()
+{
+	Solution solution;
+	vector<vector<string>> output = solution.partition("a");
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
 	//testUniquePath();
 	//testMinPathSum();
 	//testCanJump();
-	bar();
+	//bar();
+	//testCountAndSay();
+	//testCombinPhoneNum();
+	testPalindrome();
 	char ch;
 	cin.get(ch);
 	return 0;
