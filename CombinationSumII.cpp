@@ -1,13 +1,15 @@
 #include "stdafx.h"
 #include <vector>
-#include <algorithm>
-#include <unordered_set>
-#include <sstream>
-#include <string> // this should be already included in <sstream>
+#include <queue>
+#include <algorithm>    // std::reverse
+#include <deque>
+#include <stack>
+#include <string>
+#include <unordered_map>
 using namespace std;
-class Solution{
+class Solution {
 public:
-    vector<vector<int> > combinationSum(vector<int> &candidates, int target) {
+    vector<vector<int> > combinationSum2(vector<int> &candidates, int target) {
         sort(candidates.begin(),candidates.end());
 		vector<vector<int> > output = generateComb(candidates,target,candidates.size()-1);
 		return output;
@@ -27,11 +29,10 @@ public:
 				vector<int> tempV;
 				tempV.push_back(candidates[i]);
 				output.push_back(tempV);
-				continue;
 			}
 			if(target>candidates[i])
 			{
-				tempResult = generateComb(candidates,target-candidates[i],i);
+				tempResult = generateComb(candidates,target-candidates[i],i-1);
 				for (int j = 0; j < tempResult.size(); j++)
 				{
 					vector<int> tempV = tempResult[j];
@@ -39,7 +40,9 @@ public:
 					output.push_back(tempV);
 				}
 			}
+			while(i>0&&candidates[i-1]==candidates[i])
+				i--;
 		}
 		return output;
 	}
-}; 
+};

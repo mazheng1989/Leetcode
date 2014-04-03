@@ -105,6 +105,9 @@ void testCombinPhoneNum()
 }
 void testPalindrome()
 {
+	int x = 100;
+	x>1;
+	cout<<x;
 	Solution solution;
 	vector<vector<string>> output = solution.partition("a");
 }

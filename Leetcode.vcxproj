@@ -110,17 +110,21 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddBinary.cpp" />
+    <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="BuildTreePreIn.cpp" />
     <ClCompile Include="CanJump.cpp" />
     <ClCompile Include="ClimbStairs.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
+    <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="Combine.cpp" />
+    <ClCompile Include="CopyRandomList.cpp" />
     <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="DeduplicateSortedList.cpp" />
     <ClCompile Include="DeleteDuplicatesII.cpp" />
     <ClCompile Include="DetectCircle.cpp" />
     <ClCompile Include="DuildTree.cpp" />
+    <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="Flatten.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
@@ -131,6 +135,7 @@
     <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
+    <ClCompile Include="isPalindromeStr.cpp" />
     <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="IsValid.cpp" />
     <ClCompile Include="IsValidBST.cpp" />
@@ -155,9 +160,12 @@
     <ClCompile Include="MinPathSum2Use.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
+    <ClCompile Include="NextRightPointersII.cpp" />
+    <ClCompile Include="NumDistinct.cpp" />
     <ClCompile Include="PalindromePartiion.cpp" />
     <ClCompile Include="Partition.cpp" />
     <ClCompile Include="PascalsTri.cpp" />
+    <ClCompile Include="PascalTriII.cpp" />
     <ClCompile Include="PathSumII.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="permuteII.cpp" />
@@ -170,12 +178,14 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="ReverseBetween.cpp" />
+    <ClCompile Include="ReverseKGroup.cpp" />
     <ClCompile Include="Roman2Int.cpp" />
     <ClCompile Include="Rotate.cpp" />
     <ClCompile Include="Search.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchMatrix.cpp" />
     <ClCompile Include="SearchRange.cpp" />
+    <ClCompile Include="SearchRotatedII.cpp" />
     <ClCompile Include="SellStock2.cpp" />
     <ClCompile Include="SetMatrixZeros.cpp" />
     <ClCompile Include="singleNumber2.cpp" />
@@ -183,6 +193,7 @@
     <ClCompile Include="sortedArray2BST.cpp" />
     <ClCompile Include="SortedListToBST.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -207,6 +218,7 @@
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="sameTree.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="SubsetII.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SumNumbers.cpp" />
     <ClCompile Include="SwapPairs.cpp" />
@@ -215,6 +227,7 @@
     <ClCompile Include="UniqueBST.cpp" />
     <ClCompile Include="UniquePath.cpp" />
     <ClCompile Include="UniquePath2use.cpp" />
+    <ClCompile Include="UniquePathsWithObstacles.cpp" />
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />
