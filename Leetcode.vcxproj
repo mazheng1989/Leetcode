@@ -111,6 +111,7 @@
   <ItemGroup>
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="BuildTreePreIn.cpp" />
     <ClCompile Include="CanJump.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="Leetcode.cpp" />
     <ClCompile Include="LengthofLastWord.cpp" />
+    <ClCompile Include="LengthOfLongestSubstr.cpp" />
     <ClCompile Include="LetterCombination.cpp" />
     <ClCompile Include="LevelOrder.cpp" />
     <ClCompile Include="LevelOrderBottom.cpp" />
@@ -151,7 +153,9 @@
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MaxPointInLine.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
+    <ClCompile Include="MaxProfitIII.cpp" />
     <ClCompile Include="MaxSubarray.cpp" />
+    <ClCompile Include="MergeKLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoList.cpp" />
     <ClCompile Include="MinDepth.cpp" />
@@ -231,6 +235,7 @@
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />
+    <ClCompile Include="ZigzagConvert.cpp" />
     <ClCompile Include="ZigZagLevelOrder.cpp" />
   </ItemGroup>
   <ItemGroup>

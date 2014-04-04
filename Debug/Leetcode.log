@@ -1,10 +1,8 @@
-﻿Build started 4/3/2014 1:54:22 PM.
+﻿Build started 4/4/2014 5:41:24 PM.
      1>Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum.cpp ClimbStairs.cpp CopyRandomList.cpp DeduplicateSortedList.cpp DeleteDuplicatesII.cpp DetectCircle.cpp DuildTree.cpp GasStation.cpp InorderTraversal.cpp InsertionSortList.cpp IsValid.cpp JumpGameII.cpp LengthofLastWord.cpp LevelOrder.cpp LevelOrderBottom.cpp LinkedList.cpp LongestConsecutive.cpp MaxArea.cpp MaxProfit.cpp MaxSubarray.cpp MergeSortedArray.cpp MergeTwoList.cpp MinDepth.cpp MinPathSum.cpp MiniTotal.cpp NextPermutation.cpp NextRightPointers.cpp Partition.cpp PlusOne.cpp PostOrderTraversalcpp.cpp PreorderTraversal.cpp RemoveDuplicate.cpp RemoveDuplicates.cpp RemoveElement.cpp ReverseBetween.cpp Roman2Int.cpp Rotate.cpp Search.cpp SearchInsert.cpp SearchMatrix.cpp SearchRange.cpp SellStock2.cpp SetMatrixZeros.cpp SortColor.cpp SpiralMatrix.cpp SwapPairs.cpp ThreeSumCloset.cpp TrappingRainWater.cpp UniquePath.cpp UniquePathsWithObstacles.cpp ZigZagLevelOrder.cpp isPalindrome.cpp removeNthFromEnd.cpp reverseInteger.cpp singleNumber.cpp wordLadder2Solution.cpp
-         UniquePathsWithObstacles.cpp
-         CopyRandomList.cpp
-     1>CopyRandomList.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum.cpp ClimbStairs.cpp DeduplicateSortedList.cpp DeleteDuplicatesII.cpp DetectCircle.cpp DuildTree.cpp GasStation.cpp InorderTraversal.cpp InsertionSortList.cpp IsValid.cpp JumpGameII.cpp LengthofLastWord.cpp LevelOrder.cpp LevelOrderBottom.cpp LinkedList.cpp LongestConsecutive.cpp MaxArea.cpp MaxProfit.cpp MaxProfitIII.cpp MaxSubarray.cpp MergeSortedArray.cpp MergeTwoList.cpp MinDepth.cpp MinPathSum.cpp MiniTotal.cpp NextPermutation.cpp NextRightPointers.cpp Partition.cpp PlusOne.cpp PostOrderTraversalcpp.cpp PreorderTraversal.cpp RemoveDuplicate.cpp RemoveDuplicates.cpp RemoveElement.cpp ReverseBetween.cpp Roman2Int.cpp Rotate.cpp Search.cpp SearchInsert.cpp SearchMatrix.cpp SearchRange.cpp SellStock2.cpp SetMatrixZeros.cpp SortColor.cpp SpiralMatrix.cpp SwapPairs.cpp ThreeSumCloset.cpp TrappingRainWater.cpp UniquePath.cpp ZigZagLevelOrder.cpp isPalindrome.cpp removeNthFromEnd.cpp reverseInteger.cpp singleNumber.cpp wordLadder2Solution.cpp
+         MaxProfitIII.cpp
          Generating Code...
          Skipping... (no relevant changes detected)
          wordLadder2Solution.cpp
@@ -64,6 +62,7 @@
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 /SAFESEH Debug\AddBinary.obj
          Debug\AddTwoNumbers.obj
+         Debug\Anagrams.obj
          Debug\BuildTree.obj
          Debug\BuildTreePreIn.obj
          Debug\CanJump.obj
@@ -95,6 +94,7 @@
          Debug\JumpGameII.obj
          Debug\Leetcode.obj
          Debug\LengthofLastWord.obj
+         Debug\LengthOfLongestSubstr.obj
          Debug\LetterCombination.obj
          Debug\LevelOrder.obj
          Debug\LevelOrderBottom.obj
@@ -104,7 +104,9 @@
          Debug\MaxArea.obj
          Debug\MaxPointInLine.obj
          Debug\MaxProfit.obj
+         Debug\MaxProfitIII.obj
          Debug\MaxSubarray.obj
+         Debug\MergeKLists.obj
          Debug\MergeSortedArray.obj
          Debug\MergeTwoList.obj
          Debug\MinDepth.obj
@@ -166,10 +168,11 @@
          Debug\wordLadder2Solution.obj
          Debug\wordLader2.obj
          Debug\wordLader2Use.obj
+         Debug\ZigzagConvert.obj
          Debug\ZigZagLevelOrder.obj
          Leetcode.vcxproj -> D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.exe
      1>Done Building Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:09.48
+Time Elapsed 00:00:04.49

@@ -333,6 +333,21 @@
     <ClCompile Include="CopyRandomList.cpp">
       <Filter>Source Files\leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="MergeKLists.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="Anagrams.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigzagConvert.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLongestSubstr.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProfitIII.cpp">
+      <Filter>Source Files\leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

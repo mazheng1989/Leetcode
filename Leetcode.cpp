@@ -108,6 +108,9 @@ void testPalindrome()
 	int x = 100;
 	x>1;
 	cout<<x;
+	int a=1,b=-5,c=0;
+	c=a+ +b;
+	cout<<c;
 	Solution solution;
 	vector<vector<string>> output = solution.partition("a");
 }
