@@ -116,6 +116,7 @@
     <ClCompile Include="BuildTreePreIn.cpp" />
     <ClCompile Include="CanJump.cpp" />
     <ClCompile Include="ClimbStairs.cpp" />
+    <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="Combine.cpp" />
@@ -127,12 +128,15 @@
     <ClCompile Include="DuildTree.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="Flatten.cpp" />
+    <ClCompile Include="FourSum.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
+    <ClCompile Include="GetPermutation.cpp" />
     <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="HasPathSum.cpp" />
     <ClCompile Include="InorderTraversal.cpp" />
+    <ClCompile Include="InsertIntervals.cpp" />
     <ClCompile Include="InsertionSortList.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
@@ -141,6 +145,7 @@
     <ClCompile Include="IsValid.cpp" />
     <ClCompile Include="IsValidBST.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
+    <ClCompile Include="LargestRectangleArea.cpp" />
     <ClCompile Include="Leetcode.cpp" />
     <ClCompile Include="LengthofLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstr.cpp" />
@@ -151,10 +156,13 @@
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestConsecutive.cpp" />
     <ClCompile Include="MaxArea.cpp" />
+    <ClCompile Include="MaximalRectangle.cpp" />
+    <ClCompile Include="MaxPathSum.cpp" />
     <ClCompile Include="MaxPointInLine.cpp" />
     <ClCompile Include="MaxProfit.cpp" />
     <ClCompile Include="MaxProfitIII.cpp" />
     <ClCompile Include="MaxSubarray.cpp" />
+    <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeKLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoList.cpp" />
@@ -185,6 +193,7 @@
     <ClCompile Include="ReverseKGroup.cpp" />
     <ClCompile Include="Roman2Int.cpp" />
     <ClCompile Include="Rotate.cpp" />
+    <ClCompile Include="RotateRightKGroup.cpp" />
     <ClCompile Include="Search.cpp" />
     <ClCompile Include="SearchInsert.cpp" />
     <ClCompile Include="SearchMatrix.cpp" />
@@ -196,6 +205,7 @@
     <ClCompile Include="SortColor.cpp" />
     <ClCompile Include="sortedArray2BST.cpp" />
     <ClCompile Include="SortedListToBST.cpp" />
+    <ClCompile Include="SortList.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -228,10 +238,12 @@
     <ClCompile Include="SwapPairs.cpp" />
     <ClCompile Include="ThreeSumCloset.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="UniqueBST.cpp" />
     <ClCompile Include="UniquePath.cpp" />
     <ClCompile Include="UniquePath2use.cpp" />
     <ClCompile Include="UniquePathsWithObstacles.cpp" />
+    <ClCompile Include="WordBreak.cpp" />
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />

@@ -1,8 +1,8 @@
-﻿Build started 4/4/2014 5:41:24 PM.
+﻿Build started 4/8/2014 1:58:59 PM.
      1>Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum.cpp ClimbStairs.cpp DeduplicateSortedList.cpp DeleteDuplicatesII.cpp DetectCircle.cpp DuildTree.cpp GasStation.cpp InorderTraversal.cpp InsertionSortList.cpp IsValid.cpp JumpGameII.cpp LengthofLastWord.cpp LevelOrder.cpp LevelOrderBottom.cpp LinkedList.cpp LongestConsecutive.cpp MaxArea.cpp MaxProfit.cpp MaxProfitIII.cpp MaxSubarray.cpp MergeSortedArray.cpp MergeTwoList.cpp MinDepth.cpp MinPathSum.cpp MiniTotal.cpp NextPermutation.cpp NextRightPointers.cpp Partition.cpp PlusOne.cpp PostOrderTraversalcpp.cpp PreorderTraversal.cpp RemoveDuplicate.cpp RemoveDuplicates.cpp RemoveElement.cpp ReverseBetween.cpp Roman2Int.cpp Rotate.cpp Search.cpp SearchInsert.cpp SearchMatrix.cpp SearchRange.cpp SellStock2.cpp SetMatrixZeros.cpp SortColor.cpp SpiralMatrix.cpp SwapPairs.cpp ThreeSumCloset.cpp TrappingRainWater.cpp UniquePath.cpp ZigZagLevelOrder.cpp isPalindrome.cpp removeNthFromEnd.cpp reverseInteger.cpp singleNumber.cpp wordLadder2Solution.cpp
-         MaxProfitIII.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3sum.cpp ClimbStairs.cpp DeduplicateSortedList.cpp DeleteDuplicatesII.cpp DetectCircle.cpp DuildTree.cpp GasStation.cpp InorderTraversal.cpp InsertionSortList.cpp IsValid.cpp JumpGameII.cpp LengthofLastWord.cpp LevelOrder.cpp LevelOrderBottom.cpp LinkedList.cpp LongestConsecutive.cpp MaxArea.cpp MaxPathSum.cpp MaxProfit.cpp MaxSubarray.cpp MergeSortedArray.cpp MergeTwoList.cpp MinDepth.cpp MinPathSum.cpp MiniTotal.cpp NextPermutation.cpp NextRightPointers.cpp Partition.cpp PlusOne.cpp PostOrderTraversalcpp.cpp PreorderTraversal.cpp RemoveDuplicate.cpp RemoveDuplicates.cpp RemoveElement.cpp ReverseBetween.cpp Roman2Int.cpp Rotate.cpp Search.cpp SearchInsert.cpp SearchMatrix.cpp SearchRange.cpp SellStock2.cpp SetMatrixZeros.cpp SortColor.cpp SpiralMatrix.cpp SwapPairs.cpp ThreeSumCloset.cpp TrappingRainWater.cpp UniquePath.cpp ZigZagLevelOrder.cpp isPalindrome.cpp removeNthFromEnd.cpp reverseInteger.cpp singleNumber.cpp wordLadder2Solution.cpp
+         MaxPathSum.cpp
          Generating Code...
          Skipping... (no relevant changes detected)
          wordLadder2Solution.cpp
@@ -67,6 +67,7 @@
          Debug\BuildTreePreIn.obj
          Debug\CanJump.obj
          Debug\ClimbStairs.obj
+         Debug\CloneGraph.obj
          Debug\CombinationSum.obj
          Debug\CombinationSumII.obj
          Debug\Combine.obj
@@ -78,12 +79,15 @@
          Debug\DuildTree.obj
          Debug\firstMissingPositive.obj
          Debug\Flatten.obj
+         Debug\FourSum.obj
          Debug\GasStation.obj
          Debug\GenerateParenthesis.obj
          Debug\GenerateTrees.obj
+         Debug\GetPermutation.obj
          Debug\GrayCode.obj
          Debug\HasPathSum.obj
          Debug\InorderTraversal.obj
+         Debug\InsertIntervals.obj
          Debug\InsertionSortList.obj
          Debug\isBalanced.obj
          Debug\isPalindrome.obj
@@ -92,6 +96,7 @@
          Debug\IsValid.obj
          Debug\IsValidBST.obj
          Debug\JumpGameII.obj
+         Debug\LargestRectangleArea.obj
          Debug\Leetcode.obj
          Debug\LengthofLastWord.obj
          Debug\LengthOfLongestSubstr.obj
@@ -102,10 +107,13 @@
          Debug\LongestCommonPrefix.obj
          Debug\LongestConsecutive.obj
          Debug\MaxArea.obj
+         Debug\MaximalRectangle.obj
+         Debug\MaxPathSum.obj
          Debug\MaxPointInLine.obj
          Debug\MaxProfit.obj
          Debug\MaxProfitIII.obj
          Debug\MaxSubarray.obj
+         Debug\MergeIntervals.obj
          Debug\MergeKLists.obj
          Debug\MergeSortedArray.obj
          Debug\MergeTwoList.obj
@@ -136,6 +144,7 @@
          Debug\ReverseKGroup.obj
          Debug\Roman2Int.obj
          Debug\Rotate.obj
+         Debug\RotateRightKGroup.obj
          Debug\Search.obj
          Debug\SearchInsert.obj
          Debug\SearchMatrix.obj
@@ -147,6 +156,7 @@
          Debug\SortColor.obj
          Debug\sortedArray2BST.obj
          Debug\SortedListToBST.obj
+         Debug\SortList.obj
          Debug\SpiralMatrix.obj
          Debug\SpiralMatrixII.obj
          Debug\stdafx.obj
@@ -165,6 +175,7 @@
          Debug\UniquePath.obj
          Debug\UniquePath2use.obj
          Debug\UniquePathsWithObstacles.obj
+         Debug\WordBreak.obj
          Debug\wordLadder2Solution.obj
          Debug\wordLader2.obj
          Debug\wordLader2Use.obj
@@ -175,4 +186,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.49
+Time Elapsed 00:00:05.41

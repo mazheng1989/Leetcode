@@ -114,6 +114,24 @@ void testPalindrome()
 	Solution solution;
 	vector<vector<string>> output = solution.partition("a");
 }
+void testSortList()
+{
+	ListNode *head = new ListNode(2);
+	ListNode *tail = new ListNode(1);
+	head->next = tail;
+	Solution solution;
+	ListNode *headNew = solution.sortList(head);
+}
+void testMaximalRect()
+{
+	vector<vector<char>> input;
+	input.resize(1);
+	input[0].resize(2);
+	input[0][0] = '0';
+	input[0][1] = '1';
+	Solution solution;
+	int output = solution.maximalRectangle(input);
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
@@ -123,7 +141,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//bar();
 	//testCountAndSay();
 	//testCombinPhoneNum();
-	testPalindrome();
+	//testPalindrome();
+	//testSortList();
+	testMaximalRect();
 	char ch;
 	cin.get(ch);
 	return 0;
