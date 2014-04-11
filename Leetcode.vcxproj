@@ -114,6 +114,7 @@
     <ClCompile Include="Anagrams.cpp" />
     <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="BuildTreePreIn.cpp" />
+    <ClCompile Include="Candy.cpp" />
     <ClCompile Include="CanJump.cpp" />
     <ClCompile Include="ClimbStairs.cpp" />
     <ClCompile Include="CloneGraph.cpp" />
@@ -126,6 +127,8 @@
     <ClCompile Include="DeleteDuplicatesII.cpp" />
     <ClCompile Include="DetectCircle.cpp" />
     <ClCompile Include="DuildTree.cpp" />
+    <ClCompile Include="EvalRPN.cpp" />
+    <ClCompile Include="FindMedianSortedArray.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="Flatten.cpp" />
     <ClCompile Include="FourSum.cpp" />
@@ -185,12 +188,14 @@
     <ClCompile Include="PostOrderTraversalcpp.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
+    <ClCompile Include="RecordList.cpp" />
     <ClCompile Include="RemoveDuplicate.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="ReverseBetween.cpp" />
     <ClCompile Include="ReverseKGroup.cpp" />
+    <ClCompile Include="ReverseWords.cpp" />
     <ClCompile Include="Roman2Int.cpp" />
     <ClCompile Include="Rotate.cpp" />
     <ClCompile Include="RotateRightKGroup.cpp" />
@@ -208,6 +213,7 @@
     <ClCompile Include="SortList.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SpiralMatrixII.cpp" />
+    <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -235,6 +241,7 @@
     <ClCompile Include="SubsetII.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SumNumbers.cpp" />
+    <ClCompile Include="SurroundedRegion.cpp" />
     <ClCompile Include="SwapPairs.cpp" />
     <ClCompile Include="ThreeSumCloset.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
@@ -244,6 +251,7 @@
     <ClCompile Include="UniquePath2use.cpp" />
     <ClCompile Include="UniquePathsWithObstacles.cpp" />
     <ClCompile Include="WordBreak.cpp" />
+    <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />

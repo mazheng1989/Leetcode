@@ -132,6 +132,24 @@ void testMaximalRect()
 	Solution solution;
 	int output = solution.maximalRectangle(input);
 }
+void testSurroundedRegsion()
+{
+	vector<vector<char>> input;
+	input.resize(2);
+	input[0].resize(2);
+	input[1].resize(2);
+	for(int i=0;i<input.size();++i)
+		for(int j=0;j<input[0].size();++j)
+			input[i][j] = 'O';
+	Solution solution;
+	solution.solve(input);
+}
+void testReverseWord()
+{
+	string tempStr= "a, yqo! qjktum ym. .fumuhau";
+	Solution solution;
+	solution.reverseWords(tempStr);
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
@@ -143,7 +161,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//testCombinPhoneNum();
 	//testPalindrome();
 	//testSortList();
-	testMaximalRect();
+	//testMaximalRect();
+	//testSurroundedRegsion();
+	testReverseWord();
 	char ch;
 	cin.get(ch);
 	return 0;
