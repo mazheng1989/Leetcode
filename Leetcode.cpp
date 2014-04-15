@@ -150,6 +150,35 @@ void testReverseWord()
 	Solution solution;
 	solution.reverseWords(tempStr);
 }
+void testQueen()
+{
+	Solution solution;
+	vector<vector<string>> output = solution.solveNQueens(4);
+}
+void testSudoku()
+{
+	string strArray[9] = {"..9748...","7........",".2.1.9...","..7...24.",".64.1.59.",".98...3..","...8.3.2.","........6","...2759.."};
+	vector<vector<char>> input;
+	input.resize(9);
+	for(int i=0;i<9;i++)
+	{
+		string str = strArray[i];
+		std::vector<char> data(str.begin(), str.end());
+		input[i] = data;
+	}
+	Solution solution;
+	solution.solveSudoku(input);
+}
+void testFindSubStr()
+{
+	string S = "lingmindraboofooowingdingbarrwingmonkeypoundcake";
+	vector<string> L;
+	L.resize(5);
+	L[0] = "fooo";L[1]="barr"; L[2] = "wing"; L[3]="ding";L[4] = "wing";
+	Solution solution;
+	vector<int> output = solution.findSubstring(S,L);
+
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
@@ -163,7 +192,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//testSortList();
 	//testMaximalRect();
 	//testSurroundedRegsion();
-	testReverseWord();
+	//testReverseWord();
+	//testQueen();
+	//testSudoku();
+	testFindSubStr();
 	char ch;
 	cin.get(ch);
 	return 0;

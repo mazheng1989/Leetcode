@@ -129,6 +129,7 @@
     <ClCompile Include="DuildTree.cpp" />
     <ClCompile Include="EvalRPN.cpp" />
     <ClCompile Include="FindMedianSortedArray.cpp" />
+    <ClCompile Include="FindSubStr.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="Flatten.cpp" />
     <ClCompile Include="FourSum.cpp" />
@@ -141,12 +142,16 @@
     <ClCompile Include="InorderTraversal.cpp" />
     <ClCompile Include="InsertIntervals.cpp" />
     <ClCompile Include="InsertionSortList.cpp" />
+    <ClCompile Include="Int2Roman.cpp" />
     <ClCompile Include="isBalanced.cpp" />
+    <ClCompile Include="IsInterleave.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeStr.cpp" />
+    <ClCompile Include="IsScramble.cpp" />
     <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="IsValid.cpp" />
     <ClCompile Include="IsValidBST.cpp" />
+    <ClCompile Include="IsValidSudoku.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="LargestRectangleArea.cpp" />
     <ClCompile Include="Leetcode.cpp" />
@@ -158,6 +163,7 @@
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestConsecutive.cpp" />
+    <ClCompile Include="LongestValidParenthese.cpp" />
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
     <ClCompile Include="MaxPathSum.cpp" />
@@ -176,6 +182,8 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
     <ClCompile Include="NextRightPointersII.cpp" />
+    <ClCompile Include="NQueen2.cpp" />
+    <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NumDistinct.cpp" />
     <ClCompile Include="PalindromePartiion.cpp" />
     <ClCompile Include="Partition.cpp" />
@@ -207,6 +215,8 @@
     <ClCompile Include="SellStock2.cpp" />
     <ClCompile Include="SetMatrixZeros.cpp" />
     <ClCompile Include="singleNumber2.cpp" />
+    <ClCompile Include="SolveSudoku.cpp" />
+    <ClCompile Include="SolveSudokuSolution.cpp" />
     <ClCompile Include="SortColor.cpp" />
     <ClCompile Include="sortedArray2BST.cpp" />
     <ClCompile Include="SortedListToBST.cpp" />
