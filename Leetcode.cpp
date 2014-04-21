@@ -179,6 +179,22 @@ void testFindSubStr()
 	vector<int> output = solution.findSubstring(S,L);
 
 }
+void testNumdec()
+{
+	Solution solution;
+	solution.numDecodings("17");
+}
+void testDivide()
+{
+	Solution solution;
+	solution.divide(2147483647, 1);
+}
+void testAtoi()
+{
+	string input = "    010";
+	Solution s;
+	s.atoi(input.c_str());
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
@@ -195,7 +211,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//testReverseWord();
 	//testQueen();
 	//testSudoku();
-	testFindSubStr();
+	//testFindSubStr();
+	//testNumdec();
+	//testDivide();
+	testAtoi();
 	char ch;
 	cin.get(ch);
 	return 0;

@@ -112,6 +112,7 @@
     <ClCompile Include="AddBinary.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="AtoI.cpp" />
     <ClCompile Include="BuildTree.cpp" />
     <ClCompile Include="BuildTreePreIn.cpp" />
     <ClCompile Include="Candy.cpp" />
@@ -126,6 +127,7 @@
     <ClCompile Include="DeduplicateSortedList.cpp" />
     <ClCompile Include="DeleteDuplicatesII.cpp" />
     <ClCompile Include="DetectCircle.cpp" />
+    <ClCompile Include="Divide.cpp" />
     <ClCompile Include="DuildTree.cpp" />
     <ClCompile Include="EvalRPN.cpp" />
     <ClCompile Include="FindMedianSortedArray.cpp" />
@@ -145,6 +147,7 @@
     <ClCompile Include="Int2Roman.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="IsInterleave.cpp" />
+    <ClCompile Include="IsMatch.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeStr.cpp" />
     <ClCompile Include="IsScramble.cpp" />
@@ -163,6 +166,7 @@
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestConsecutive.cpp" />
+    <ClCompile Include="LongestParlindome.cpp" />
     <ClCompile Include="LongestValidParenthese.cpp" />
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
@@ -179,12 +183,15 @@
     <ClCompile Include="MiniTotal.cpp" />
     <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="MinPathSum2Use.cpp" />
+    <ClCompile Include="MinWindow.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
     <ClCompile Include="NextRightPointersII.cpp" />
     <ClCompile Include="NQueen2.cpp" />
     <ClCompile Include="NQueens.cpp" />
+    <ClCompile Include="NumDecoding.cpp" />
     <ClCompile Include="NumDistinct.cpp" />
+    <ClCompile Include="PalindromeMinCut.cpp" />
     <ClCompile Include="PalindromePartiion.cpp" />
     <ClCompile Include="Partition.cpp" />
     <ClCompile Include="PascalsTri.cpp" />
@@ -248,6 +255,7 @@
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="sameTree.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="StrStr.cpp" />
     <ClCompile Include="SubsetII.cpp" />
     <ClCompile Include="Subsets.cpp" />
     <ClCompile Include="SumNumbers.cpp" />
@@ -261,6 +269,7 @@
     <ClCompile Include="UniquePath2use.cpp" />
     <ClCompile Include="UniquePathsWithObstacles.cpp" />
     <ClCompile Include="WordBreak.cpp" />
+    <ClCompile Include="WordBreakii.cpp" />
     <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />

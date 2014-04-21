@@ -1,24 +1,63 @@
-﻿Build started 4/15/2014 4:06:07 PM.
+﻿Build started 4/21/2014 3:06:47 PM.
      1>Project "D:\code\git_leetcode\Leetcode\Leetcode\Leetcode\Leetcode.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ClimbStairs.cpp CopyRandomList.cpp DeduplicateSortedList.cpp DeleteDuplicatesII.cpp DetectCircle.cpp DuildTree.cpp GasStation.cpp InsertionSortList.cpp JumpGameII.cpp LargestRectangleArea.cpp Leetcode.cpp LengthOfLongestSubstr.cpp LengthofLastWord.cpp LevelOrder.cpp LevelOrderBottom.cpp LinkedList.cpp LongestConsecutive.cpp MaxArea.cpp MaxProfit.cpp MaxProfitIII.cpp MaxSubarray.cpp MergeSortedArray.cpp MergeTwoList.cpp MinDepth.cpp MinPathSum.cpp MiniTotal.cpp Partition.cpp PascalTriII.cpp PlusOne.cpp RemoveDuplicate.cpp RemoveDuplicates.cpp RemoveElement.cpp ReverseBetween.cpp ReverseKGroup.cpp Rotate.cpp RotateRightKGroup.cpp Search.cpp SearchInsert.cpp SearchMatrix.cpp SearchRange.cpp SearchRotatedII.cpp SellStock2.cpp SetMatrixZeros.cpp SortColor.cpp SpiralMatrix.cpp SpiralMatrixII.cpp SwapPairs.cpp TrappingRainWater.cpp UniquePath.cpp WordBreak.cpp firstMissingPositive.cpp isPalindrome.cpp removeNthFromEnd.cpp reverseInteger.cpp singleNumber.cpp singleNumber2.cpp wordLadder2Solution.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Leetcode.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AddTwoNumbers.cpp AtoI.cpp Candy.cpp CanJump.cpp ClimbStairs.cpp CopyRandomList.cpp CountAndSay.cpp DeduplicateSortedList.cpp DeleteDuplicatesII.cpp DetectCircle.cpp Divide.cpp DuildTree.cpp FindSubStr.cpp firstMissingPositive.cpp GasStation.cpp InsertionSortList.cpp isPalindrome.cpp JumpGameII.cpp LargestRectangleArea.cpp Leetcode.cpp LengthofLastWord.cpp LetterCombination.cpp LevelOrder.cpp LevelOrderBottom.cpp LinkedList.cpp LongestConsecutive.cpp MaxArea.cpp MaximalRectangle.cpp MaxProfit.cpp MaxProfitIII.cpp MaxSubarray.cpp MergeSortedArray.cpp MergeTwoList.cpp MinDepth.cpp MiniTotal.cpp MinPathSum.cpp MinPathSum2Use.cpp MinWindow.cpp NQueens.cpp NumDecoding.cpp PalindromePartiion.cpp Partition.cpp PascalTriII.cpp PlusOne.cpp RecordList.cpp RemoveDuplicates.cpp RemoveElement.cpp removeNthFromEnd.cpp ReverseBetween.cpp ReverseKGroup.cpp ReverseWords.cpp Rotate.cpp RotateRightKGroup.cpp Search.cpp SearchInsert.cpp SearchMatrix.cpp SearchRange.cpp SearchRotatedII.cpp SellStock2.cpp SetMatrixZeros.cpp SolveSudoku.cpp SortColor.cpp SortList.cpp SpiralMatrix.cpp SpiralMatrixII.cpp Sqrt.cpp reverseInteger.cpp singleNumber.cpp StrStr.cpp SurroundedRegion.cpp SwapPairs.cpp TrappingRainWater.cpp UniquePath.cpp UniquePath2use.cpp UniquePathsWithObstacles.cpp WordBreakii.cpp wordLadder2Solution.cpp wordLader2Use.cpp
+         wordLader2Use.cpp
+     1>wordLader2Use.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(94): warning C4018: '<' : signed/unsigned mismatch
+     1>wordLader2Use.cpp(110): warning C4018: '<' : signed/unsigned mismatch
+         WordBreakii.cpp
+     1>WordBreakii.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+     1>WordBreakii.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         UniquePath2use.cpp
+         SurroundedRegion.cpp
+         StrStr.cpp
+         SortList.cpp
+         SolveSudoku.cpp
+         ReverseWords.cpp
+     1>ReverseWords.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>ReverseWords.cpp(29): warning C4018: '<' : signed/unsigned mismatch
+     1>ReverseWords.cpp(35): warning C4018: '<' : signed/unsigned mismatch
+     1>ReverseWords.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>ReverseWords.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+         PalindromePartiion.cpp
+     1>PalindromePartiion.cpp(35): warning C4018: '<=' : signed/unsigned mismatch
+         NumDecoding.cpp
+     1>NumDecoding.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+         NQueens.cpp
+     1>NQueens.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+         MinPathSum2Use.cpp
+         MaximalRectangle.cpp
+     1>MaximalRectangle.cpp(9): warning C4018: '<' : signed/unsigned mismatch
+     1>MaximalRectangle.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+         LetterCombination.cpp
+     1>LetterCombination.cpp(54): warning C4018: '<' : signed/unsigned mismatch
+     1>LetterCombination.cpp(69): warning C4018: '<' : signed/unsigned mismatch
          Leetcode.cpp
      1>Leetcode.cpp(109): warning C4552: '>' : operator has no effect; expected operator with side-effect
      1>Leetcode.cpp(141): warning C4018: '<' : signed/unsigned mismatch
      1>Leetcode.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+         FindSubStr.cpp
+         Divide.cpp
+     1>Divide.cpp(21): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         CountAndSay.cpp
+     1>CountAndSay.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>CountAndSay.cpp(35): warning C4101: 'tempNum' : unreferenced local variable
+         CanJump.cpp
+         AtoI.cpp
          Generating Code...
          Skipping... (no relevant changes detected)
          wordLadder2Solution.cpp
-         singleNumber2.cpp
-         singleNumber.cpp
-         reverseInteger.cpp
-         removeNthFromEnd.cpp
-         isPalindrome.cpp
-         firstMissingPositive.cpp
-         WordBreak.cpp
+         UniquePathsWithObstacles.cpp
          UniquePath.cpp
          TrappingRainWater.cpp
          SwapPairs.cpp
+         singleNumber.cpp
+         reverseInteger.cpp
+         Sqrt.cpp
          SpiralMatrixII.cpp
          SpiralMatrix.cpp
          SortColor.cpp
@@ -33,14 +72,16 @@
          Rotate.cpp
          ReverseKGroup.cpp
          ReverseBetween.cpp
+         removeNthFromEnd.cpp
          RemoveElement.cpp
          RemoveDuplicates.cpp
-         RemoveDuplicate.cpp
+         RecordList.cpp
          PlusOne.cpp
          PascalTriII.cpp
          Partition.cpp
-         MiniTotal.cpp
+         MinWindow.cpp
          MinPathSum.cpp
+         MiniTotal.cpp
          MinDepth.cpp
          MergeTwoList.cpp
          MergeSortedArray.cpp
@@ -53,21 +94,25 @@
          LevelOrderBottom.cpp
          LevelOrder.cpp
          LengthofLastWord.cpp
-         LengthOfLongestSubstr.cpp
          LargestRectangleArea.cpp
          JumpGameII.cpp
+         isPalindrome.cpp
          InsertionSortList.cpp
          GasStation.cpp
+         firstMissingPositive.cpp
          DuildTree.cpp
          DetectCircle.cpp
          DeleteDuplicatesII.cpp
          DeduplicateSortedList.cpp
          CopyRandomList.cpp
          ClimbStairs.cpp
+         Candy.cpp
+         AddTwoNumbers.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\git_leetcode\Leetcode\Leetcode\Debug\Leetcode.lib" /MACHINE:X86 /SAFESEH Debug\AddBinary.obj
          Debug\AddTwoNumbers.obj
          Debug\Anagrams.obj
+         Debug\AtoI.obj
          Debug\BuildTree.obj
          Debug\BuildTreePreIn.obj
          Debug\Candy.obj
@@ -82,6 +127,7 @@
          Debug\DeduplicateSortedList.obj
          Debug\DeleteDuplicatesII.obj
          Debug\DetectCircle.obj
+         Debug\Divide.obj
          Debug\DuildTree.obj
          Debug\EvalRPN.obj
          Debug\FindMedianSortedArray.obj
@@ -101,6 +147,7 @@
          Debug\Int2Roman.obj
          Debug\isBalanced.obj
          Debug\IsInterleave.obj
+         Debug\IsMatch.obj
          Debug\isPalindrome.obj
          Debug\isPalindromeStr.obj
          Debug\IsScramble.obj
@@ -119,6 +166,7 @@
          Debug\LinkedList.obj
          Debug\LongestCommonPrefix.obj
          Debug\LongestConsecutive.obj
+         Debug\LongestParlindome.obj
          Debug\LongestValidParenthese.obj
          Debug\MaxArea.obj
          Debug\MaximalRectangle.obj
@@ -135,12 +183,15 @@
          Debug\MiniTotal.obj
          Debug\MinPathSum.obj
          Debug\MinPathSum2Use.obj
+         Debug\MinWindow.obj
          Debug\NextPermutation.obj
          Debug\NextRightPointers.obj
          Debug\NextRightPointersII.obj
          Debug\NQueen2.obj
          Debug\NQueens.obj
+         Debug\NumDecoding.obj
          Debug\NumDistinct.obj
+         Debug\PalindromeMinCut.obj
          Debug\PalindromePartiion.obj
          Debug\Partition.obj
          Debug\PascalsTri.obj
@@ -186,6 +237,7 @@
          Debug\reverseInteger.obj
          Debug\sameTree.obj
          Debug\singleNumber.obj
+         Debug\StrStr.obj
          Debug\SubsetII.obj
          Debug\Subsets.obj
          Debug\SumNumbers.obj
@@ -199,6 +251,7 @@
          Debug\UniquePath2use.obj
          Debug\UniquePathsWithObstacles.obj
          Debug\WordBreak.obj
+         Debug\WordBreakii.obj
          Debug\WordLadder.obj
          Debug\wordLadder2Solution.obj
          Debug\wordLader2.obj
@@ -210,4 +263,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.17
+Time Elapsed 00:00:18.06

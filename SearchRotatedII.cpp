@@ -1,16 +1,24 @@
 #include "stdafx.h"
 class Solution {
 public:
-    int search(int A[], int n, int target) {
+    bool search(int A[], int n, int target) {
         if(n<=0)
-        return -1;
+        return false;
         int i=0,j=n-1,mid;
         while(i<=j)
         {
             mid = (i+j)/2;
             if(A[mid]==target)
-				return mid;
-            if(A[i]<=A[mid]&&A[mid]<=A[j])
+				return true;
+			if(A[i]==A[mid]||A[j]==A[mid])
+			{
+				if(A[i]==A[mid])
+					i++;
+				if(A[j]==A[mid])
+					j--;
+				continue;
+			}
+            if(A[i]<A[mid]&&A[mid]<A[j])
             {
                 //on the same side of pivot
                 if(A[mid]<target)
@@ -64,6 +72,6 @@ public:
                 }
             }
         }
-        return -1;
+        return false;
     }
 };
