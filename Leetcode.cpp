@@ -195,6 +195,48 @@ void testAtoi()
 	Solution s;
 	s.atoi(input.c_str());
 }
+void testRestoreIP()
+{
+	string input = "0000";
+	Solution s;
+	s.restoreIpAddresses(input);
+}
+void testWordSearch()
+{
+	vector<string> input;
+	input.push_back("ABCE");input.push_back("SFES");input.push_back("ADEE");
+	
+	vector<vector<char>> inputC;
+	inputC.resize(input.size());
+	for(int i=0;i<inputC.size();++i)
+	{
+		std::vector<char> data(input[i].begin(), input[i].end());
+		inputC[i] = data;
+	}
+	Solution s;
+	s.exist(inputC,"ABCESEEEFS");
+}
+void testRecoverTree()
+{
+	TreeNode *root = new TreeNode(0), *leftN = new TreeNode(1);
+	root->left = leftN;
+	Solution s;
+	s.recoverTree(root);
+	delete root;
+	delete leftN;
+}
+void testMultiplyStr()
+{
+	string m1="123",m2="456";
+	Solution s;
+	string m3 = s.multiply(m1,m2);
+}
+void testSimplifyP()
+{
+	string path = "/home/./workDir/../test/";
+	Solution s;
+	s.simplifyPath(path);
+}
 int _tmain(int argc, _TCHAR* argv[])
 {
 	//testWordLader2();
@@ -214,7 +256,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//testFindSubStr();
 	//testNumdec();
 	//testDivide();
-	testAtoi();
+	//testAtoi();
+	//testRestoreIP();
+	//testWordSearch();
+	//testRecoverTree();
+	//testMultiplyStr();
+	testSimplifyP();
 	char ch;
 	cin.get(ch);
 	return 0;

@@ -129,12 +129,14 @@
     <ClCompile Include="DetectCircle.cpp" />
     <ClCompile Include="Divide.cpp" />
     <ClCompile Include="DuildTree.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="EvalRPN.cpp" />
     <ClCompile Include="FindMedianSortedArray.cpp" />
     <ClCompile Include="FindSubStr.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="Flatten.cpp" />
     <ClCompile Include="FourSum.cpp" />
+    <ClCompile Include="FullJustify.cpp" />
     <ClCompile Include="GasStation.cpp" />
     <ClCompile Include="GenerateParenthesis.cpp" />
     <ClCompile Include="GenerateTrees.cpp" />
@@ -148,6 +150,7 @@
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="IsInterleave.cpp" />
     <ClCompile Include="IsMatch.cpp" />
+    <ClCompile Include="IsNumber.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeStr.cpp" />
     <ClCompile Include="IsScramble.cpp" />
@@ -168,6 +171,7 @@
     <ClCompile Include="LongestConsecutive.cpp" />
     <ClCompile Include="LongestParlindome.cpp" />
     <ClCompile Include="LongestValidParenthese.cpp" />
+    <ClCompile Include="LRU.cpp" />
     <ClCompile Include="MaxArea.cpp" />
     <ClCompile Include="MaximalRectangle.cpp" />
     <ClCompile Include="MaxPathSum.cpp" />
@@ -184,6 +188,7 @@
     <ClCompile Include="MinPathSum.cpp" />
     <ClCompile Include="MinPathSum2Use.cpp" />
     <ClCompile Include="MinWindow.cpp" />
+    <ClCompile Include="MultiplyStr.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NextRightPointers.cpp" />
     <ClCompile Include="NextRightPointersII.cpp" />
@@ -204,10 +209,13 @@
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PreorderTraversal.cpp" />
     <ClCompile Include="RecordList.cpp" />
+    <ClCompile Include="RecoverTree.cpp" />
+    <ClCompile Include="RegularExpressionMatch.cpp" />
     <ClCompile Include="RemoveDuplicate.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="RestoreIPAddress.cpp" />
     <ClCompile Include="ReverseBetween.cpp" />
     <ClCompile Include="ReverseKGroup.cpp" />
     <ClCompile Include="ReverseWords.cpp" />
@@ -221,6 +229,7 @@
     <ClCompile Include="SearchRotatedII.cpp" />
     <ClCompile Include="SellStock2.cpp" />
     <ClCompile Include="SetMatrixZeros.cpp" />
+    <ClCompile Include="SimplyPath.cpp" />
     <ClCompile Include="singleNumber2.cpp" />
     <ClCompile Include="SolveSudoku.cpp" />
     <ClCompile Include="SolveSudokuSolution.cpp" />
@@ -274,6 +283,7 @@
     <ClCompile Include="wordLadder2Solution.cpp" />
     <ClCompile Include="wordLader2.cpp" />
     <ClCompile Include="wordLader2Use.cpp" />
+    <ClCompile Include="WordSearch.cpp" />
     <ClCompile Include="ZigzagConvert.cpp" />
     <ClCompile Include="ZigZagLevelOrder.cpp" />
   </ItemGroup>
