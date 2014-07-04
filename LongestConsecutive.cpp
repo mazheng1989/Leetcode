@@ -9,7 +9,7 @@ public:
 		unordered_set<int> hashSet;
 		for(int i=0;i<num.size();++i)
 		{
-			if(hashSet.find(num[i])!=hashSet.end())
+			if(hashSet.find(num[i])==hashSet.end())
 			{
 				hashSet.insert(num[i]);
 			}
@@ -20,8 +20,9 @@ public:
 		{
 			count = 1;
 			tempNum = *(hashSet.begin());
+			hashSet.erase(tempNum);
 			left = tempNum-1;
-			while(hashSet.find(left)==hashSet.end())
+			while(hashSet.find(left)!=hashSet.end())
 			{
 				count++;
 				hashSet.erase(left);
